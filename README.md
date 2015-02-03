@@ -1,23 +1,20 @@
- # lighting_test
--Lighting test
+#lighting_test
  
  This project implements a lighting / shadow test using MelonJs.
  
  The core is the LightningEntity which extends from me.Entity and implements the lightning effect with a radial gradient.
  
- #Develop by
+#Develop by
 
  @WangTheTiger
  
- #Dependencies
--Dependencies
+#Dependencies
  
  The source ships with the following libraries:
  
  melonJS - Lightweight HTML5 game engine
  
- #License
--License
+#License
  
  The source code is hereby released under the MIT License. The full text of the license appears below.
  
