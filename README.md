@@ -1,5 +1,4 @@
 # lighting_test
-Lighting test
 
 This is a lighting / shadow test using MelonJs.
 
@@ -10,14 +9,12 @@ Follow me:
 @WangTheTiger
 
 #Dependencies
-Dependencies
 
 The source ships with the following libraries:
 
 melonJS - Lightweight HTML5 game engine
 
 #License
-License
 
 The source code is hereby released under the MIT License. The full text of the license appears below.
 
