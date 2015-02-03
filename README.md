@@ -1,27 +1,38 @@
-# lighting_test
+melonJS boilerplate
+-------------------------------------------------------------------------------
 
-This is a lighting / shadow test using MelonJs.
+features :
+- video autoscaling
+- mobile optimized HTML/CSS
+- swiping disabled on iOS devices
+- debug Panel (if #debug)
+- default icons
+- distribution build
 
-The core is the LightningEntity which extends from me.Entity and implements the lightning effect with a radial gradient.
+## To run distribution
 
-#Develop
-Follow me:
-@WangTheTiger
+To build, be sure you have [node](http://nodejs.org) installed. Clone the project:
 
-#Dependencies
+    git clone https://github.com/melonjs/boilerplate.git
 
-The source ships with the following libraries:
+Then in the cloned directory, simply run:
 
-melonJS - Lightweight HTML5 game engine
+    npm install
 
-#License
+To build:
 
-The source code is hereby released under the MIT License. The full text of the license appears below.
+    grunt
 
-Copyright (c) 2014 - Fabrizio Barisione
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Running the game:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+	grunt connect	
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+And you will have the boilerplate example running on http://localhost:8000
+
+
+Note that you may have to edit the file `Gruntfile.js` if you need to better dictate the order your files load in. Note how by default the game.js and resources.js are specified in a specific order.
+
+-------------------------------------------------------------------------------
+Copyright (C) 2011 - 2014 Olivier Biot, Jason Oster, Aaron McLeod
+melonJS is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
