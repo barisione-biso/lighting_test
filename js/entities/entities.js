@@ -210,23 +210,20 @@ game.LightEntity = me.Entity.extend({
 
 		//var gdest = context.globalCompositeOperation;
 		context.globalCompositeOperation="darker";
-		
-		context.rect(0, 0, me.CanvasRenderer.getWidth(), me.CanvasRenderer.getHeight());
+
 		var grd = context.createRadialGradient(this.pos.x,//75, //internal circle x
 											  this.pos.y,//10, //internal circle y
 											  70, //internal circle radius
 											  this.pos.x, //external circle x
 											  this.pos.y, //external circle y
 											  120);//external circle radius
-		// light blue
+		// White
 		grd.addColorStop(0, '#FFFFFF');
-		// dark blue
-		//grd.addColorStop(1, '#004CB3');
+		// Black
 		grd.addColorStop(1, '#000000');
 		
 		context.fillStyle = grd;
-		context.fill();
-		
+		context.fillRect(0, 0, me.CanvasRenderer.getWidth(), me.CanvasRenderer.getHeight());
 		
 		//context.globalCompositeOperation=gdest;
 		context.restore();
