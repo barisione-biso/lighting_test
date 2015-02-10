@@ -1,6 +1,6 @@
 #lighting_test
  
- This project implements a lighting / shadow test using MelonJs.
+ This project implements a lighting / shadow test using a quick & dirty approach with a composite darken operations.
  
  The core is the LightningEntity which extends from me.Entity and implements the lightning effect with a radial gradient.
  
